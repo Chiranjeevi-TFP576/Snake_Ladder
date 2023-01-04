@@ -4,8 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome Snake Ladder Game");
+            //Console.WriteLine("Welcome Snake Ladder Game");
+
+
             UC1_GamePlay Player = new UC1_GamePlay();
+            
 
 
 
