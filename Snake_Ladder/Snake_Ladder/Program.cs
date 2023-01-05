@@ -8,8 +8,8 @@
 
 
             UC1_GamePlay Player = new UC1_GamePlay();
-            
 
+            Player.RollDice();
 
 
         }
