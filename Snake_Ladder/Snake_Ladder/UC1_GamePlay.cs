@@ -24,6 +24,10 @@ namespace Snake_Ladder
                         break;
                     case 1:
                         Position1 += Player1;
+                        if (Position1 > 100)
+                        {
+                            Position1 -= Player1;
+                        }
                         break;
                     case 2:
                         if (Position1 > 0)
