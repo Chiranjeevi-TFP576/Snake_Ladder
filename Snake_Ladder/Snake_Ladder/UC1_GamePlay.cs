@@ -10,6 +10,7 @@ namespace Snake_Ladder
     {
         int Position1 = 0;
         int Player1;
+        int Num_Dice_Roll = 0;
         public void RollDice()
         {
             Random random = new Random();
@@ -41,9 +42,10 @@ namespace Snake_Ladder
                         break;
 
                 }
-
+                Num_Dice_Roll++;
+                Console.WriteLine("Player1 postion at" + Position1);
             }
-            Console.WriteLine("Player1 won At Position :" + Position1);
+            Console.WriteLine("\nPlayer1 won At Position" + Position1 + "\nNumber of Dice rolls to win" + Num_Dice_Roll);
         }
     }
 }
